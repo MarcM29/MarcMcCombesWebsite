@@ -12,7 +12,9 @@ body, html{
 }
 .container {
     background: url("imgs/blue1.jpg") no-repeat center center fixed;
-    background-size: 55% 55%;
+    background-size: 600px 400px;
+    min-width:400px;
+    min-height:400px;
     text-align: center;
     color:  #01c4ff;
     position:fixed;
