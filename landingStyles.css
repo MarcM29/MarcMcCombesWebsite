@@ -11,7 +11,7 @@ body, html{
 
 }
 .container {
-    background: url("imgs/blue1.jpg") no-repeat center center fixed;
+
     background-size: 600px 400px;
     min-width:400px;
     min-height:400px;
@@ -27,12 +27,13 @@ body, html{
 
   .centered {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: 500;
+    font-size:72px; 
+    color:white;
 
-    font-size: 44px;
     text-shadow:
     0.02em 0  #000000,
     0 0.02em  #000000,
@@ -43,9 +44,10 @@ body, html{
   }
 
   button{
+    background: url("imgs/blue.jpg") fixed center;
     font-family: 'Times New Roman', Times, serif;
     border: none;
-    color:  #01c4ff;
+    color:  white;
     padding: 20px 32px;
     text-align: center;
     text-decoration: none;
@@ -55,8 +57,7 @@ body, html{
     font-weight: 600;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white; 
-    border: 2px solid black;
+    border: 1px solid #01c4ff;
     opacity: 0.85;
     box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
@@ -85,3 +86,44 @@ body, html{
     font-size:18px;
   } 
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
+.mc{
+  width:80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: 500;
+  min-width:400px;
+    min-height:400px;
+    text-align: center;
+    color:  #01c4ff;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
+.c1{
+  
+  width: 100%;
+  padding-top:64px;
+  text-align: center;
+    font-weight: 500;
+    font-size:64px; 
+    color:white;
+
+    text-shadow:
+    0.02em 0  #000000,
+    0 0.02em  #000000,
+    -0.02em 0  #000000,
+    0 -0.02em #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.c2{
+  padding-top:64px;
+  margin:-10px 0px -10px 0px;
+  width: 100%;
+}
