@@ -1,2 +1,2 @@
-# Marc McCombes Website
-This is my personal website. Built from scratch using HTML5, CSS, JS. I will be updating this website with new features and hope to include some React features in a future update.
+# Marc McCombes Website (HTML5, CSS3, JS)
+This is my personal website. Built from scratch. This website was built to practice some frontend design and responsiveness using html, css3 with basic js cookie management and animations
