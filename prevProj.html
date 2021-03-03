@@ -18,8 +18,8 @@
                 <nav>
                     <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="home.html"><img alt="Home" src="imgs/home.png" width="25" height="25"></a>
                     <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="education.html">Education</a>
-                    <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="prevProj.html">Projects</a>
                     <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="skills.html">Skills</a>
+                    <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="prevProj.html">Projects</a>
                     <a onmouseover="mouseOver(this)" onmouseout="notMouseOver(this)" href="resume.html">Resume</a>
                     <a href="#" onclick="return false;" style="float: right; margin-left: -15px; color:#04acdd"  id="test"></a>
                 </nav>
@@ -27,14 +27,49 @@
             </div>
         </div>
         
-        <h2 class="sidePage"><u>Previous Projects</u></h2>
+        <h1 style="padding-bottom:20px;"><u>Previous Projects</u></h1>
         <div class="mainContainer">
-            <span style="padding:15px;">Click on the GitHub image below to view some previous projects I have worked on</span>
-        
-            <a href="https://github.com/MarcM29?tab=repositories" target="_blank">
-                <img alt="Personal Repo" src="imgs/gitImg.png"
-                width="120%" height="450px" style="padding-left: 15px; align-content: center; margin-left: auto; margin-right: auto; display:block;">
-            </a>
+
+            <div class="container1" style="padding-top:20px; padding-bottom: 20px;">
+                <a style="color:white; text-decoration: none;" href="https://github.com/MarcM29/BugTracker" target="_blank">
+                <div style="text-align:center; padding-bottom: 20px; padding-top: 10px;">Bug Tracker App</div>
+                <img width= "99%;" height="375px" alt="Personal Repo" src="imgs/BugTrackerHomePage.png">
+                </a>
+                <p style="text-align:center; font-size: 16px;">Web app that allows developers to register and login and provides an enivronment to create, view, edit, assign and close tickets for their project. The app provides a clean UI for developers to view ticket statistics, search for specific tickets, developer (all & user specific) assignments and all created tickets (open & closed). <br />*Demo video included on GitHub* <br/><br/> <b>Tech stack: C#, ASP.NET MVC, SQL, RAZOR, Bootstrap</b></p>
+            </div>
+
+            <div class="container2" style="padding-top:20px; padding-bottom: 20px;">
+                <a style="color:white; text-decoration: none;" href="https://github.com/MarcM29/BugTracker" target="_blank">
+                <div style="text-align:center; padding-bottom: 20px; padding-top: 10px;">Angular Weather App</div>
+                    <img width= "99%;" height="375px" alt="Personal Repo" src="imgs/weatherApp1.png">
+                </a>
+                <p style="text-align:center; font-size: 16px;">Angular web app that displays the local time (updates every second) and requires the user to authenticate themselves by signing in via a google account in order for them to get access to view the current weather.<br/><br/> <b>Tech stack: Angular, OpenWeatherMap API, Travis CI, TypeScript, JavaScript, Firebase, HTML5, CSS3</b></p>
+            </div>
+
+            <div class="container1" style="padding-top:20px; padding-bottom: 20px;">
+                <a style="color:white; text-decoration: none;" href="https://github.com/MarcM29/BugTracker" target="_blank">
+                <div style="text-align:center; padding-bottom: 20px; padding-top: 10px;">Placeholder project</div>
+                    <img width= "99%;" height="375px" alt="Personal Repo" src="imgs/placeholder.png">
+                </a>
+                <p style="text-align:center; font-size: 16px;">Brief description <br/><br/> <b>Tech stack:</b></p>
+            </div>
+            <div class="container2" style="padding-top:20px; padding-bottom: 20px;">
+                <a style="color:white; text-decoration: none;" href="https://github.com/MarcM29/BugTracker" target="_blank">
+                <div style="text-align:center; padding-bottom: 20px; padding-top: 10px;">Gym Membership Management App</div>
+                    <img width= "99%;" height="375px" alt="Personal Repo" src="imgs/gymApp.png">
+                </a>
+                <p style="text-align:center; font-size: 16px;">Program that allows a user to manage current list of registered members while allowing the user to add, delete and flag members that have missed payments. Also allows the user to enter in monthly revenue and expenses to create a simple income statement for each month of the current year.<br/><br/> <b>Tech stack: Java, Java Swing GUI toolkit</b></p>
+            </div>
+
+            <div class="container6" style="padding-top:20px; padding-bottom: 20px;">
+                <span>Click on the image below to view my other projects on Github</span>
+            
+                <a href="https://github.com/MarcM29?tab=repositories" target="_blank">
+                    <img alt="Personal Repo" src="imgs/gitImg.png"
+                    style="padding-top: 10px; align-content: center; margin-left: auto; margin-right: auto; display:block;">
+                </a>
+            </div>
+
         </div>
     </body>
 </html>
